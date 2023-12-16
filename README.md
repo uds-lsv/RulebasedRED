@@ -5,7 +5,7 @@ Code for  paper "Enabling noisy label usage for out-of-airspace data in air-traf
 The script [weak_labels.py](weak_labels.py) generates noisy readback error labels for ATCO-pilot utterance. The [data](data/) folder contains the necessary ATC keyword list.
 
 ## Run
-The script [weak_labels.py](weak_labels.py) takes an ATCO utterance containing one or more commands and the pilot readback as input. 
+The below command takes an ATCO utterance containing one or more commands and the pilot readback as input. 
 ```
 python weak_labels.py <ATCO_command> <pilot_readback>
 ```
